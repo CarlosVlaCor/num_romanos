@@ -15,8 +15,8 @@ void main() {
   });
 
   test('Cuando el numero sea 106', () {
-    String representacion = regresarRepresentacion(500);
-    expect(representacion, "D");
+    String representacion = regresarRepresentacion(106);
+    expect(representacion, "CVI");
   });
 
   test('Cuando el intervalo sea de 500', () {
